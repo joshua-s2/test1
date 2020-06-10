@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Muli:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-bar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 1rem;
+}
+
+#nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#nav-bar ul li a {
+    position: sticky;
+    color: #323232;
+    align-items: center;
+}
+
+#nav-bar ul li {
+    margin: 0 2rem;
+    flex-direction: row;
+}
+
+#nav-bar ul li a:hover {
+    color: #8C5000;
+}
+
+#nav-bar ul li,
+#nav-bar ul li.list {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+}
+
+#nav-bar ul {
+    font-size: 20px;
+    margin: 0 6rem;
+}
+
+#nav-bar ul li.curv {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+}
+
+#nav-bar ul li.lit a {
+    border: 1px solid #8C5000;
+    background: #8C5000;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+#main-footer {
+    background: #fff;
+    color: #000000;
+    padding-bottom: 2rem;
+}
+
+#main-footer img {
+    width: 150px;
+}
+
+#main-footer a {
+    color: #000000;
+    font-family: Muli;
+}
+
+#main-footer .footercontainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+#main-footer .footercontainer p,
+#main-footer .footercontainer a,
+#main-footer .footercontainer li {
+    line-height: 1.5rem;
+}
+
+hr {
+    border: -1.5px solid #323232;
+}
+
+#main-footer .footercontainer i {
+    color: #323232;
+    background: #fff;
+    padding-left: 0.5rem;
+    margin: 0.2em;
+}
+
+#main-footer .footercontainer i:hover,
+#main-footer .footercontainer ul:hover,
+#main-footer .footercontainer a:hover {
+    color: #8C5000;
+}

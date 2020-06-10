@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Muli:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+}
+
+.show {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+}
+
+.sig {
+    width: 60%;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sig h1 {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 0.02em;
+}
+
+.sig p {
+    display: flex;
+    font-style: normal;
+    font-size: 1em;
+    font-size: 21px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.show img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.special {
+    width: 30%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Southampton', cursive;
+}
+
+.specialp {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Southampton', cursive;
+}
+
+.container {
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.card {
+    background: #F4F3F3;
+    padding: 2rem;
+}
+
+.card3 {
+    background: #F4F3F3;
+    padding: 2rem;
+}
+
+.card2 {
+    background: #fff;
+    padding: 4rem;
+}
+
+.card22 {
+    background: #E5E5E5;
+    padding: 2rem;
+}
+
+h1.card {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-left: 40%;
+}
+
+h1.card2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1.card22 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 35%;
+}
+
+h1.card3 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: normal;
+}
+
+#home-articles div div.card-text {
+    background: #fff;
+}
+
+#home-articles div div.card2-text {
+    background: inherit;
+}
+
+#home-articles div div.card22-text {
+    background: inherit;
+}
+
+#home-articles div div.card3-text {
+    background: #fff;
+}
+
+#home-articles .articles-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#home-articles .articles-container .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+#home-articles .articles-container .card2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+#home-articles .articles-container .card22 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+#home-articles .articles-container .card3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+#home-articles div div.card-text h2 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-transform: uppercase;
+    color: #323232;
+    font-style: regular;
+    font-weight: normal;
+}
+
+#home-articles div div.card2-text h2 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-transform: uppercase;
+    color: #323232;
+    font-style: regular;
+    font-weight: normal;
+}
+
+#home-articles div div.card22-text h2 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-transform: uppercase;
+    color: #323232;
+    font-style: regular;
+    font-weight: normal;
+}
+
+#home-articles div div.card3-text h2 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Cinzel Decorative', cursive;
+    text-transform: uppercase;
+    color: #323232;
+    font-style: regular;
+    font-weight: normal;
+}
+
+#home-articles div div.card-text p {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #323232;
+    padding: 1rem;
+    text-align: center;
+}
+
+#home-articles div div.card2-text p {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #323232;
+    padding: 1rem;
+    text-align: center;
+}
+
+#home-articles div div.card22-text p {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #323232;
+    padding: 2rem;
+    text-align: center;
+}
+
+#home-articles div div.card3-text p {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #323232;
+    padding: 1rem;
+    text-align: center;
+}
+
+#home-articles div div.card-text a {
+    color: #8C5000;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 40%;
+}
+
+#home-articles div div.card2-text a {
+    color: #8C5000;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 45%;
+}
+
+#home-articles div div.card22-text a {
+    color: #8C5000;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 45%;
+}
+
+#home-articles div div.card3-text a {
+    color: #8C5000;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 40%;
+}
+
+li {
+    list-style: none;
+}
