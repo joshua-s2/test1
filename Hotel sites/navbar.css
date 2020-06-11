@@ -17,7 +17,8 @@ a {
     background: #fff;
     justify-content: space-between;
     z-index: 2;
-    padding: 1rem;
+    padding: 2rem;
+    margin-left: 12%;
 }
 
 #nav-bar ul {
@@ -33,7 +34,7 @@ a {
 }
 
 #nav-bar ul li {
-    margin: 0 2rem;
+    margin: 0 3rem;
     flex-direction: row;
 }
 
@@ -74,6 +75,7 @@ li {
     background: #fff;
     color: #000000;
     padding-bottom: 2rem;
+    font-size: 22x;
 }
 
 #main-footer img {
@@ -90,7 +92,7 @@ li {
     grid-template-columns: repeat(5, 1fr);
     gap: 1.5rem;
     padding-top: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 #main-footer .footercontainer p,
@@ -114,4 +116,24 @@ hr {
 #main-footer .footercontainer ul:hover,
 #main-footer .footercontainer a:hover {
     color: #8C5000;
+}
+
+@media(max-width:500px) {
+    #main-footer .footercontainer {
+        display: grid;
+        grid-template-columns: 2fr;
+        padding: 4rem;
+        overflow: visible;
+    }
+    #main-footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 0.5rem;
+    }
+    #main-footer .footercontainer a,
+    #main-footer .footercontainer li {
+        line-height: 2rem;
+    }
 }
